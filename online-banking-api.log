@@ -1,0 +1,38 @@
+2021-05-29T22:45:02.611Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T22:48:05.321Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T22:55:07.953Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T22:55:51.647Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T22:56:17.828Z [online-banking-api] info: GET /account
+2021-05-29T22:56:44.750Z [online-banking-api] info: DELETE /account/4
+2021-05-29T22:57:05.638Z [online-banking-api] info: PATCH /account/updateBalance {"id":5,"balance":1001}
+2021-05-29T22:58:32.083Z [online-banking-api] info: PUT /account {"id":5,"name":"Noah Doggo Loko","balance":2000}
+2021-05-29T22:59:04.622Z [online-banking-api] info: GET /account/3
+2021-05-29T22:59:12.342Z [online-banking-api] info: GET /account/4
+2021-05-29T23:04:56.574Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:29:28.947Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:34:32.391Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:34:42.491Z [online-banking-api] info: GET /account/4
+2021-05-29T23:34:45.491Z [online-banking-api] info: GET /account/3
+2021-05-29T23:34:48.278Z [online-banking-api] info: GET /account/2
+2021-05-29T23:34:51.297Z [online-banking-api] info: GET /account/1
+2021-05-29T23:39:50.659Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:39:59.697Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:42:30.943Z [online-banking-api] error: PUT /account - Name and Balance are required fields!
+2021-05-29T23:42:43.697Z [online-banking-api] error: PUT /account - Name and Balance are required fields!
+2021-05-29T23:43:13.774Z [online-banking-api] error: PUT /account - newData is not defined
+2021-05-29T23:43:46.221Z [online-banking-api] error: PUT /account - newData is not defined
+2021-05-29T23:43:49.113Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:43:55.482Z [online-banking-api] info: PUT /account {"id":1,"name":"Lucky Dogo Loko","balance":3000,"xesquedele":"vraunelas"}
+2021-05-29T23:44:57.698Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:53:07.303Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:55:34.927Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-29T23:55:59.081Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T00:14:01.553Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T00:14:13.145Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T00:14:23.172Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T00:21:12.613Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T21:32:21.347Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T21:34:52.388Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T21:37:19.478Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T21:38:15.648Z [online-banking-api] info: Listening on port 8080 c:
+2021-05-30T21:38:25.781Z [online-banking-api] info: Listening on port 8080
