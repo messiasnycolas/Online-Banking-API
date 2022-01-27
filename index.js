@@ -1,10 +1,10 @@
-import express from "express";
-import accountsRouter from "./routes/account.routes.js";
-import winston from "winston";
 import { promises as fs } from "fs";
 import cors from "cors";
+import express from "express";
+import winston from "winston";
 import swaggerUi from "swagger-ui-express";
 import { swaggerDocument } from "./doc.js";
+import accountsRouter from "./routes/account.routes.js";
 
 
 const app = express();

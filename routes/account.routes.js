@@ -1,7 +1,7 @@
-import express from "express";
+import { Router } from "express";
 import AccountController from "../controllers/account.controller.js";
 
-const router = express.Router();
+const router = Router();
 
 router.post("/", AccountController.createAccount);
 router.get("/", AccountController.getAccounts);
@@ -11,7 +11,7 @@ router.put("/", AccountController.updateAccount);
 router.patch("/updateBalance", AccountController.updateBalance);
 
 router.use((err, req, res, next) => {
-    logger.error(`${req.method} ${req.baseUrl} - ${err.message}`);
+    logger.error(`[${req.method}] ${req.baseUrl} - ${err.message}`);
     res.status(400).send({ error: err.message });
 });
 

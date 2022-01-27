@@ -1,7 +1,6 @@
 import AccountService from "../services/account.service.js";
 
 async function createAccount(req, res, next) {
-
     try {
         let account = req.body;
         if (!account.name || account.balance == null) {

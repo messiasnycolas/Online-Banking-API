@@ -1,0 +1,9 @@
+2022-01-27T03:01:13.046Z [online-banking-api] info: Listening on port 8080 | File Created
+2022-01-27T03:01:42.787Z [online-banking-api] info: GET /account
+2022-01-27T03:03:16.413Z [online-banking-api] info: POST /account {"id":1,"name":"Long John Silver","balance":1000000000000.01}
+2022-01-27T03:04:12.383Z [online-banking-api] info: POST /account {"id":2,"name":"NodeCat","balance":10.01}
+2022-01-27T03:04:24.797Z [online-banking-api] info: GET /account
+2022-01-27T03:04:33.027Z [online-banking-api] info: GET /account/2
+2022-01-27T03:05:48.056Z [online-banking-api] info: PATCH /account/updateBalance {"id":2,"balance":150}
+2022-01-27T03:06:03.748Z [online-banking-api] error: [PATCH] /account - Account number must be valid and new balance must be correctly specified!
+2022-01-27T03:06:25.762Z [online-banking-api] info: GET /account
